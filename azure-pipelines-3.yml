@@ -9,5 +9,5 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'filePath'
-    filePath: 'C:\\Users\\Tricentis\\Desktop\\Bernhard Stuff\\MP_ToscaCloud_ExecutionClient.ps1'
+    filePath: 'C:\\Users\\Tricentis\\Desktop\\Bernhard Stuff\\ToscaCloud_ExecutionClient_MAX.ps1'
 
