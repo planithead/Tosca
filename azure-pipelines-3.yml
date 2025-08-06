@@ -1,5 +1,13 @@
 trigger: none  # Run manually
 
+schedules:
+- cron: "0 6 * * *"  # Runs at 6 AM UTC every day
+  displayName: Daily 6AM Run
+  branches:
+    include:
+    - main  # Or your target branch
+  always: true  # Run even if there are no changes
+  
 pool:
   name: 'ToscaCloud'  # The agent pool your machine is registered to
   demands:
